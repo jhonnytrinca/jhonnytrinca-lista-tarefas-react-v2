@@ -1,0 +1,20 @@
+{
+  "name": "desafio-frontend-modulo5",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@types/node": "^12.0.0",
+    "axios": "^0.24.0",
+    "express": "^4.17.1",
+    "express-winston": "^4.2.0",
+    "winston": "^3.3.3"
+  },
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "devDependencies": {
+    "http-proxy-middleware": "^2.0.1",
+    "nodemon": "^2.0.15"
+  }
+}
